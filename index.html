@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10e4448ba1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img
+                src="mn-logo.png"
+                alt="Logotipo MN Tijolos Ecológicos"
+                id="header-img"
+            >
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features">Características</a></li>
+                <li><a class="nav-link" href="#how-it-works">Como Funciona</a></li>
+                <li><a class="nav-link" href="#bricks-type">Tipos de Tijolo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="register">
+        <h2>Receba nossas newsletters</h2>
+        <form 
+            id="form" 
+            action="https://www.freecodecamp.com/email-submit">
+            <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                class="email-class" 
+                placeholder="Digite seu e-mail"
+                required
+            >
+            <input 
+                type="submit"
+                class="btn"
+                id="submit"
+                value="Cadastrar"
+            >
+        </form>
+    </section>
+    
+    <div class="container">   
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <i class="far fa-3x fa-money-bill-alt"></i>
+                </div>
+                <div class="desc">
+                    <h2>Economia</h2>
+                    <p>
+                        Construir com o tijolo Ecológico pode levar a uma grande economia de material em comparação a uma construção convencional.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-hourglass-half"></i></div>
+                <div class="desc">
+                    <h2>Rapidez</h2>
+                    <p>
+                        A rapidez em construir utilizando o método modular de construção com o tijolo ecológico contribui muito para uma grande economia.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-hammer"></i></div>
+                <div class="desc">
+                    <h2>Praticidade</h2>
+                    <p>
+                        Ganhe tempo e dinheiro na sua obra com um sistema de construção modular prático, sem quebradeira, sem entulho e muito mais.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-clinic-medical"></i></div>
+                <div class="desc">
+                    <h2>Segurança</h2>
+                    <p>
+                        Os tijolos ecológicos são mais resistentes que os convencionais e seu sistema de construção torna a obra mais leve e com peso melhor distribuído.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-snowflake"></i></div>
+                <div class="desc">
+                    <h2>Sistema Termoacústico</h2>
+                    <p>
+                        Os furos formam câmaras de ar fazendo com que a casa possua isolamento térmico e acústico, o que contribui para uma melhor qualidade de vida.
+                    </p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon"><i class="fas fa-3x fa-leaf"></i></div>
+                <div class="desc">
+                    <h2>Sustentabilidade</h2>
+                    <p>
+                        Nosso tijolo é ecológico porque não agride o meio-ambiente durante a sua fabricação como ocorre com o tijolo convencional (cerâmico).
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="how-it-works">
+        <iframe 
+            id="video"
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/-ltWsDYjYeo" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="bricks-type">
+        <div id="brick" class="product">
+            <div class="title">Tijolo Modular</div>
+            <img src="tijoloeco1.png" alt="Foto tijolo ecológico" class="tijolo">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa doloribus dolorum dolores, commodi laboriosam officiis nostrum modi tenetur ratione! A sed tempora quasi non corrupti ex hic possimus amet!
+            </p>
+            <button class="btn">Selecionar</button>
+        </div>
+
+        <div id="half-brick" class="product">
+            <div class="title">Meio Tijolo</div>
+            <img src="tijoloeco2.png" alt="Foto meio tijolo" class="tijolo">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa doloribus dolorum dolores, commodi laboriosam officiis nostrum modi tenetur ratione! A sed tempora quasi non corrupti ex hic possimus amet!
+            </p>
+            <button class="btn">Selecionar</button>
+        </div>
+
+        <div id="groove" class="product">
+            <div class="title">Canaleta</div>
+            <img src="tijoloeco3.png" alt="Foto canaleta" class="tijolo">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa doloribus dolorum dolores, commodi laboriosam officiis nostrum modi tenetur ratione! A sed tempora quasi non corrupti ex hic possimus amet!
+            </p>
+            <button class="btn">Selecionar</button>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <nav class="nav-foot">
+            <ul>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <span id="copy">&copy; 2021, FrontEndMark, Direitos reservados</span>
+    </footer>
+</body>
+</html>
